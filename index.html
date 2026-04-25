@@ -1,140 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Wonderland of Chocolate — Luxury Cakes in Lahore</title>
-  <meta name="description" content="Handcrafted luxury chocolate cakes in Lahore. Order signature Belgian fudge, lava and truffle cakes. Delivery across Lahore." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Wonderland Chocolate Website</title>
+    <!-- Other head elements -->
 </head>
 <body>
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="container nav">
-      <a href="#home" class="logo">The Wonderland<span>of Chocolate</span></a>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#menu">Menu</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <a href="#contact" class="btn btn-gold">Order Now</a>
-    </div>
-  </header>
-
-  <!-- HERO -->
-  <section id="home" class="hero">
-    <div class="hero-overlay"></div>
-    <img src="images/hero.jpg" alt="Luxury chocolate cake with gold leaf" class="hero-img" />
-    <div class="container hero-content">
-      <p class="eyebrow">Lahore · Est. 2024</p>
-      <h1>Where Every Bite <em>Feels Like Love</em></h1>
-      <p class="lede">Slow-crafted chocolate cakes, made by hand in Lahore — delivered like a love letter in a box.</p>
-      <a href="#menu" class="btn btn-gold" id="orderBtn">Order Now</a>
-    </div>
-  </section>
-
-  <!-- MENU -->
-  <section id="menu" class="section">
-    <div class="container">
-      <p class="eyebrow center">Our Signatures</p>
-      <h2 class="section-title">A menu written in <em>cocoa</em>.</h2>
-
-      <div class="menu-grid">
-        <article class="cake-card">
-          <div class="cake-img"><img src="images/cake1.jpg" alt="Chocolate Dream Cake" /></div>
-          <h3>Chocolate Dream Cake</h3>
-          <p class="tagline">Soft. Slow. Unforgettable.</p>
-          <p class="price">PKR 1,800</p>
-          <button class="btn btn-outline order-btn" data-cake="Chocolate Dream Cake">Order</button>
-        </article>
-
-        <article class="cake-card">
-          <div class="cake-img"><img src="images/cake2.jpg" alt="Belgian Fudge Cake" /></div>
-          <h3>Belgian Fudge Cake</h3>
-          <p class="tagline">Deep, dark, devotional.</p>
-          <p class="price">PKR 2,500</p>
-          <button class="btn btn-outline order-btn" data-cake="Belgian Fudge Cake">Order</button>
-        </article>
-
-        <article class="cake-card">
-          <div class="cake-img"><img src="images/cake3.jpg" alt="Molten Lava Love Cake" /></div>
-          <h3>Molten Lava Love Cake</h3>
-          <p class="tagline">A warm centre that says everything.</p>
-          <p class="price">PKR 2,200</p>
-          <button class="btn btn-outline order-btn" data-cake="Molten Lava Love Cake">Order</button>
-        </article>
-
-        <article class="cake-card">
-          <div class="cake-img"><img src="images/cake4.jpg" alt="Truffle Temptation Cake" /></div>
-          <h3>Truffle Temptation Cake</h3>
-          <p class="tagline">Cocoa-dusted indulgence.</p>
-          <p class="price">PKR 2,900</p>
-          <button class="btn btn-outline order-btn" data-cake="Truffle Temptation Cake">Order</button>
-        </article>
-
-        <article class="cake-card">
-          <div class="cake-img"><img src="images/cake5.jpg" alt="Custom Love Cake" /></div>
-          <h3>Custom Love Cake</h3>
-          <p class="tagline">Your moment, sculpted.</p>
-          <p class="price">From PKR 3,500</p>
-          <button class="btn btn-outline order-btn" data-cake="Custom Love Cake">Order</button>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section about">
-    <div class="container about-grid">
-      <div class="about-img">
-        <img src="images/about.jpg" alt="Chef glazing chocolate cake" />
-      </div>
-      <div>
-        <p class="eyebrow">Our Story</p>
-        <h2 class="section-title">A quiet love affair with <em>cocoa</em>.</h2>
-        <p>The Wonderland began the way most beautiful things do — late at night, in a small Lahore kitchen, with a spoon dipped in warm chocolate and the thought, <em>someone has to taste this</em>.</p>
-        <p>Today, we hand-bake every cake from single-origin cocoa, real cream, and the patience to let ganache rest overnight. Slow chocolate, in a fast city.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section contact">
-    <div class="container">
-      <p class="eyebrow center">Visit · Call · Order</p>
-      <h2 class="section-title center">Let's bake your moment.</h2>
-
-      <div class="contact-grid">
-        <div class="contact-card">
-          <h4>Location</h4>
-          <p>Gulberg III<br />Lahore, Pakistan</p>
-        </div>
-        <div class="contact-card">
-          <h4>Phone</h4>
-          <p><a href="tel:+923001234567">+92 300 1234567</a></p>
-        </div>
-        <div class="contact-card">
-          <h4>Delivery</h4>
-          <p>Available across Lahore<br />Same-day on selected cakes</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> The Wonderland of Chocolate · Lahore</p>
-    </div>
-  </footer>
-
-  <a href="https://wa.me/923001234567" class="whatsapp-fab" aria-label="Order on WhatsApp" target="_blank" rel="noopener">
-    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.05 0C5.5 0 .17 5.33.17 11.88c0 2.09.55 4.13 1.6 5.93L0 24l6.34-1.66a11.85 11.85 0 0 0 5.7 1.45h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.16-3.41-8.43zM12.05 21.3a9.43 9.43 0 0 1-4.81-1.32l-.34-.2-3.76.99 1-3.66-.22-.37a9.42 9.42 0 1 1 17.55-4.86c0 5.21-4.23 9.42-9.42 9.42zm5.16-7.05c-.28-.14-1.67-.82-1.93-.92-.26-.1-.45-.14-.64.14-.19.28-.74.92-.91 1.11-.17.19-.33.21-.61.07-.28-.14-1.18-.43-2.25-1.39-.83-.74-1.39-1.66-1.55-1.94-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.5.14-.16.18-.28.28-.47.09-.19.05-.35-.02-.49-.07-.14-.64-1.55-.88-2.13-.23-.55-.46-.48-.64-.49h-.55c-.19 0-.49.07-.74.35-.26.28-.97.95-.97 2.31s1 2.69 1.13 2.88c.14.19 1.96 3 4.74 4.21.66.28 1.18.45 1.58.58.66.21 1.27.18 1.74.11.53-.08 1.67-.68 1.91-1.34.23-.66.23-1.22.16-1.34-.07-.12-.26-.19-.54-.33z"/></svg>
-  </a>
-
-  <script src="script.js"></script>
+    <!-- Other body content -->
+    <img src="/wonderland-chocolate-website/images/hero.jpg" alt="Hero Image">
+    <!-- Other content -->
+    <img src="/wonderland-chocolate-website/images/cake1.jpg" alt="Cake 1">
+    <img src="/wonderland-chocolate-website/images/cake2.jpg" alt="Cake 2">
+    <img src="/wonderland-chocolate-website/images/cake3.jpg" alt="Cake 3">
+    <img src="/wonderland-chocolate-website/images/cake4.jpg" alt="Cake 4">
+    <img src="/wonderland-chocolate-website/images/cake5.jpg" alt="Cake 5">
+    <img src="/wonderland-chocolate-website/images/about.jpg" alt="About Image">
+    <!-- Other content -->
 </body>
 </html>
